@@ -40,6 +40,16 @@
     ```bash
     go run main.go
     ```
+**С помощью Docker:**    
+1. **Сборка Docker-образа:**
+   ```bash
+   docker build -t api-go
+   ```
+
+2. **Запуск контейнера:**
+   ```bash
+   docker run -d -p 8080:8080 api-go
+   ```
 
 Сервер будет запущен по адресу `http://localhost:8080`.
 
