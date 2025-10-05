@@ -1,4 +1,4 @@
-package main
+package storage
 
 import (
 	"errors"
@@ -8,7 +8,7 @@ import (
 type Employee struct {
 	ID     int    `json:"id"`
 	Name   string `json:"name"`
-	Sex    rune   `json:"sex"`
+	Sex    string `json:"sex"`
 	Age    int    `json:"age"`
 	Salary int    `json:"salary"`
 }

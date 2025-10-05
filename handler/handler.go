@@ -1,7 +1,8 @@
-package main
+package handler
 
 import (
 	"fmt"
+	. "http/storage"
 	"net/http"
 	"strconv"
 
